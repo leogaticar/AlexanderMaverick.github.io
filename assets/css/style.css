@@ -1,0 +1,17 @@
+* {
+  font-size: 14px;
+}
+body {
+  background-color: gray;
+  color: white;
+}
+
+#border-headbox {
+  border: solid 1px white;
+  padding: 10px;
+  margin: 1px;
+}
+
+#profile-picture {
+  border-radius: 50%;
+}
