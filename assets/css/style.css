@@ -1,4 +1,6 @@
 * {
+  padding: 0;
+  margin: 0;
   font-size: 14px;
   font-family: "Roboto", sans-serif;
 }
@@ -21,9 +23,16 @@ body {
   position: absolute;
   z-index: -1;
 }
-.line {
+.separatorLine {
   border-color: solid #00ffff;
   border-top: 5px transparent;
   border-right: 1980px solid #00ffff;
   border-bottom: 5px solid transparent;
+}
+#linkStyle {
+  color: inherit;
+  text-decoration: inherit;
+}
+.contact {
+  font-size: 18px;
 }
