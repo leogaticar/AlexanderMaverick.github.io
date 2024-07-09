@@ -1,5 +1,6 @@
 * {
   font-size: 14px;
+  font-family: "Roboto", sans-serif;
 }
 body {
   background-color: gray;
@@ -7,11 +8,22 @@ body {
 }
 
 #border-headbox {
-  border: solid 1px white;
   padding: 10px;
   margin: 1px;
 }
 
 #profile-picture {
   border-radius: 50%;
+  width: 18vw;
+}
+
+.backgroundImgSettings {
+  position: absolute;
+  z-index: -1;
+}
+.line {
+  border-color: solid #00ffff;
+  border-top: 5px transparent;
+  border-right: 1980px solid #00ffff;
+  border-bottom: 5px solid transparent;
 }
