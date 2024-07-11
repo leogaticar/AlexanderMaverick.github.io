@@ -36,3 +36,12 @@ body {
 .contact {
   font-size: 18px;
 }
+
+.experienceSizeText {
+  font-size: 14px;
+  font-weight: 600;
+}
+.educationSizeText {
+  font-size: 14px;
+  font-weight: 600;
+}
