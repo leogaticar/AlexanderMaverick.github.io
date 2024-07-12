@@ -24,11 +24,11 @@ body {
   z-index: -1;
 }
 .separatorLine {
-  border-color: solid #00ffff;
-  border-top: 5px transparent;
-  border-right: 1980px solid #00ffff;
-  border-bottom: 5px solid transparent;
+  width: 100%;
+  height: 2px; /* Ajusta la altura según tus necesidades */
+  background: linear-gradient(to right, transparent, #00ffff, transparent);
 }
+
 #linkStyle {
   color: inherit;
   text-decoration: inherit;
@@ -44,4 +44,13 @@ body {
 .educationSizeText {
   font-size: 14px;
   font-weight: 600;
+}
+
+.separatorLineBlockSize {
+  width: 100%;
+}
+
+imgCarouselSettings {
+  width: 520px;
+  height: 520px;
 }
